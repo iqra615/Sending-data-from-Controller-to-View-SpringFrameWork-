@@ -1,0 +1,21 @@
+<!--<%@ page language = "java" contentType= "text/html"; charset= ISO-8859-1"
+ pageEncoding= "ISO-8859-1" isELIgnored="false" %>  -->
+
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Home of  Spring boot</title>
+</head>
+<body>
+<h1>Sending data from controller to view using MODEL</h1>
+<p th:text ="'Hello' + ${name} +'!!'" />
+<p  th:text= "'Id' + '::' + ${id}" />
+<p th:text = " Friends + ${f} "/> 
+ 
+<br />
+ 
+	
+</body>
+</html>
